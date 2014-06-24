@@ -176,7 +176,7 @@ resources:
     type: "Rackspace::Cloud::Network"
     properties:
       cidr: { get_param: private_network_cidr }
-      label: { get_parm: private_network_label }
+      label: { get_param: private_network_label }
 
   # Servers
   database_server:
